@@ -1,0 +1,55 @@
+@charset "utf-8";
+/* CSS Document */
+html, body, ul, li, ol, p, h1, h2, h3, h4, h5, h6, form,input,img { margin:0; padding:0;}
+li{ list-style:none;}
+h1,h2,h3,h4,h5,h6{
+font-size: 100%;
+font-weight: normal;
+}
+a{color:#333;text-decoration:none;}  
+a:hover{color:#f40; text-decoration:underline;}
+body{ font-size:14px;}
+.wrap{ width:100%; margin:0  auto;}
+.clearfix:after{ content:""; display:block; clear:both;}
+/*CSS初始化结束*/
+.picture{
+	background:url(../img/6b39ca6ae0cafec7ae34efc87f922c41.jpg) no-repeat  }
+<!--header开始->
+header{ height:90px; }
+header h1{
+	width:165px;
+	height:46px;
+	
+	float:left;
+	margin-top:20px;
+	}
+header ul{
+	width:240px;
+	height:32px;
+	float:right;
+	margin-top:30px;
+	margin-right:100px;
+	}
+header ul li{
+	float:left;
+	line-height:32px;
+	
+	}
+header ul li a{
+	width:80px;
+	height:30px;
+	font-size:16px;
+	color:#000;
+	display:block;
+	text-align:center;
+	
+	}
+<!--header结束-->
+<!--主体开始-->
+.bigtext{}
+.bigtext .logotest{}
+.bigtext .logotest h1{}
+.bigtext .logotest h1 .signature{}
+<!--底部版权开始-->
+<!--底部版权结束-->
+
